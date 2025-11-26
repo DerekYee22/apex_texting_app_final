@@ -1,8 +1,8 @@
-Apex PT Automated Appointment Reminder System
+# Apex PT Automated Appointment Reminder System
 
 Automated SMS appointment reminder tool built for Apex Physical Therapy Specialists to reduce staff workload and streamline patient communication.
 
-Project Overview
+## Project Overview
 
 Apex Physical Therapy staff were spending several hours each week calling patients individually to confirm upcoming appointments.
 This project automates the entire workflow by:
@@ -19,8 +19,9 @@ Logging all outgoing text messages for documentation and accountability
 
 This tool reduced manual calling from hours per week to a few clicks.
 
-Features
-Automated Appointment Extraction
+## Features
+
+### Automated Appointment Extraction
 
 Reads exported Outlook events and pulls out:
 
@@ -32,9 +33,7 @@ Phone number (parsed from the Outlook event body)
 
 (Implemented in app.py.)
 
-✔ Outlook → CSV Export
-
-Uses a GUI to let staff select:
+### Uses a GUI to let staff select:
 
 A therapist’s calendar
 
@@ -44,7 +43,7 @@ Export all events into calendar.csv
 
 (Implemented in export_calendar.py.)
 
-✔ Staff-Friendly Desktop Interface
+### Staff-Friendly Desktop Interface
 
 Simple workflow:
 
@@ -62,6 +61,7 @@ Automatic Logging
 
 All reminders are written into log.csv, stored chronologically.
 
-📬 Contact
+## Contact
 
 Feel free to reach out with questions or ideas for enhancement!
+https://www.linkedin.com/in/derek-s-yee/ 
